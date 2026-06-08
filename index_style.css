@@ -1,5 +1,5 @@
 body {
-    background-image: url('Mar.jpg');
+    background-image: url('jungle.jpg');
     background-repeat: repeat;
 }
 #main_title {
@@ -15,13 +15,12 @@ body {
 }
 
 #indexing {
-background-image: url('sand.jpg');
-background-repeat: repeat;
+background-color: rgb(129, 180, 51);
 }
 
 p {
-    color: rgb(35, 9, 0);
-    -webkit-text-stroke: 1px rgb(35, 9, 0);
+    color: rgb(0, 34, 2);
+    -webkit-text-stroke: 1px rgb(0, 34, 2);
     font-family: "Geist Mono", monospace;
 }
 
@@ -34,18 +33,18 @@ ul {
     width: 200px;
 }
 
-#seashell_1 {
+#birb {
    width: 100px;
    height: 100px;
    position: absolute;
    top: 250px;
    left: 300px;
-   transform: rotate(-30deg);
+   transform: rotate(60deg);
    
     filter: drop-shadow(5px 5px 10px rgba(2, 21, 59, 0.436));
 }
 
-#seashell_2 {   
+#moon {   
 position: absolute;
 width: 200px;
 height: 200px;
@@ -58,6 +57,6 @@ filter: drop-shadow(5px 5px 10px rgba(2, 21, 59, 0.436));
 
 h2 {
  font-family: "Press Start 2P", system-ui;
- color: rgb(35, 9, 0) ;
+ color:rgb(0, 34, 2);
 
 }
