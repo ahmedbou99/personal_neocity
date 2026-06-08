@@ -1,0 +1,63 @@
+body {
+    background-image: url('Mar.jpg');
+    background-repeat: repeat;
+}
+#main_title {
+    font-size: xx-large;
+   color: rgb(35, 9, 0);
+   font-family: "Bitcount Single", system-ui;
+   -webkit-text-stroke: 1px rgb(35, 9, 0);
+  background-image: url('Wood.jpg');
+  background-repeat: repeat;
+  background-size: 50%;
+  text-align: center;
+  ;
+}
+
+#indexing {
+background-image: url('sand.jpg');
+background-repeat: repeat;
+}
+
+p {
+    color: rgb(35, 9, 0);
+    -webkit-text-stroke: 1px rgb(35, 9, 0);
+    font-family: "Geist Mono", monospace;
+}
+
+ul {
+    font-family: "Geist Mono", monospace;
+    color: rgb(35, 9, 0) ;
+    background-image: url('planks.jpg');
+    background-repeat: repeat;
+    background-size: 25%;
+    width: 200px;
+}
+
+#seashell_1 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 250px;
+   left: 300px;
+   transform: rotate(-30deg);
+   
+    filter: drop-shadow(5px 5px 10px rgba(2, 21, 59, 0.436));
+}
+
+#seashell_2 {   
+position: absolute;
+width: 200px;
+height: 200px;
+top: 100px;
+left: 400px;
+
+transform: rotate(30deg);
+filter: drop-shadow(5px 5px 10px rgba(2, 21, 59, 0.436));
+}
+
+h2 {
+ font-family: "Press Start 2P", system-ui;
+ color: rgb(35, 9, 0) ;
+
+}
