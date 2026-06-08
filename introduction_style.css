@@ -1,0 +1,27 @@
+body {
+background-image: url('jungle.jpg');
+
+}
+
+#intro_body {
+ background-image: url('green_grid.jpg');   
+
+}
+
+h1 {
+    color: rgb(35, 9, 0) ;
+    background-image: url('Wood.jpg');
+    background-size: 20%;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 1000;
+    -webkit-text-stroke: 1px rgb(35, 9, 0);
+
+}
+
+p {
+color: palegoldenrod;
+font-family: "Geist Mono", monospace;
+text-align: center;
+
+}
