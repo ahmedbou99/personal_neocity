@@ -23,5 +23,24 @@ p {
 color: palegoldenrod;
 font-family: "Geist Mono", monospace;
 text-align: center;
+font-size: 150%;
 
 }
+
+#arrow {
+position: absolute;
+left : 80%;
+top: 2%;
+rotate: calc(-90deg);
+}
+
+#whistle {
+width: 50px;
+height: 70px;
+
+position: absolute;
+top: 6%;
+left: 2%;
+
+}
+

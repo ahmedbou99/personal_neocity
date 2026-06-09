@@ -24,39 +24,54 @@ p {
     font-family: "Geist Mono", monospace;
 }
 
+
+h2 {
+    font-family: "Press Start 2P", system-ui;
+ color: rgb(0, 34, 2);
+    -webkit-text-stroke: 1px rgb(0, 34, 2);
+
+}
+
 ul {
     font-family: "Geist Mono", monospace;
+    font-size: 300%;
     color: rgb(35, 9, 0) ;
     background-image: url('planks.jpg');
     background-repeat: repeat;
-    background-size: 25%;
-    width: 200px;
+    background-size: 5%;
+    width: 1310px;
+
+    
 }
 
-#birb {
-   width: 100px;
-   height: 100px;
-   position: absolute;
-   top: 250px;
-   left: 300px;
-   transform: rotate(60deg);
-   
-    filter: drop-shadow(5px 5px 10px rgba(2, 21, 59, 0.436));
-}
 
-#moon {   
+#frog {
+width: 100px;
+height: 100px;
+
 position: absolute;
-width: 200px;
-height: 200px;
-top: 100px;
-left: 400px;
+left: 50%;
+top: 16%;
+mix-blend-mode: multiply;
 
-transform: rotate(30deg);
-filter: drop-shadow(5px 5px 10px rgba(2, 21, 59, 0.436));
 }
 
-h2 {
- font-family: "Press Start 2P", system-ui;
- color:rgb(0, 34, 2);
+a {
+    color: orangered;
+}
+
+
+#good_night {
+    rotate: calc(-30deg);
+}
+
+#tacos {
+    width: 100px;
+    height: 100px;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+
+  rotate: calc(30deg);
 
 }
